@@ -1,0 +1,11 @@
+2025-03-18 13:45:43.314 [info] 
+
+
+
+
+2025-03-18 13:45:43.314 [info] Extension host agent started.
+2025-03-18 13:45:43.322 [info] Started initializing default profile extensions in extensions installation folder. file:///home/seb/.vscode-server/extensions
+2025-03-18 13:45:43.330 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/seb/.vscode-server/extensions
+2025-03-18 13:45:43.522 [info] [127.0.0.1][33002eca][ManagementConnection] New connection established.
+2025-03-18 13:45:43.686 [info] [127.0.0.1][a3634734][ExtensionHostConnection] New connection established.
+2025-03-18 13:45:43.693 [info] [127.0.0.1][a3634734][ExtensionHostConnection] <859> Launched Extension Host Process.

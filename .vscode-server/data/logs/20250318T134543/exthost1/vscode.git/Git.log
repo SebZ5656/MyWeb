@@ -1,0 +1,95 @@
+2025-03-18 13:45:47.615 [info] [main] Log level: Info
+2025-03-18 13:45:47.615 [info] [main] Validating found git in: "git"
+2025-03-18 13:45:47.615 [info] [main] Using git "2.43.0" from "git"
+2025-03-18 13:45:47.615 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-18 13:45:47.615 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-18 13:45:47.615 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:45:47.615 [info] > git rev-parse --show-toplevel [7ms]
+2025-03-18 13:45:47.615 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:45:47.618 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:45:47.618 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:45:47.620 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:45:47.620 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:45:47.622 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:45:47.622 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:45:47.626 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-18 13:46:00.877 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:46:00.877 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:47:43.461 [info] > git rev-parse --show-toplevel [20ms]
+2025-03-18 13:47:43.461 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:48:32.806 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:48:32.806 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:17.532 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:17.532 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:17.535 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:17.535 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:23.865 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:49:23.865 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:23.867 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:23.867 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:23.870 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:23.870 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:24.661 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:24.662 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:24.665 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:49:24.665 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:24.668 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:24.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:24.671 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:24.671 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:25.988 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:49:25.988 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:25.990 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:49:25.990 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:25.991 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-18 13:49:25.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:26.580 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:26.580 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:26.583 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:26.583 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 13:49:27.780 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-18 13:49:27.780 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-18 14:43:54.549 [info] > git rev-parse --show-toplevel [2ms]
+2025-03-18 14:43:54.555 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-03-18 14:43:54.563 [info] [Model][openRepository] Opened repository: /home/seb
+2025-03-18 14:43:54.568 [info] > git config --get commit.template [1ms]
+2025-03-18 14:43:54.572 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-18 14:43:54.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-03-18 14:43:54.573 [warning] [Git][getBranch] No such branch: master
+2025-03-18 14:43:54.579 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-18 14:43:54.737 [info] > git status -z -uall [161ms]
+2025-03-18 14:43:54.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-03-18 14:43:54.767 [warning] [Git][getBranch] No such branch: master
+2025-03-18 14:43:54.767 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-03-18 14:43:54.768 [info] > git config --get commit.template [1ms]
+2025-03-18 14:43:54.770 [info] [Git][getRemotes] No remotes found in the git config file
+2025-03-18 14:43:54.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 14:43:54.771 [warning] [Git][getBranch] No such branch: master
+2025-03-18 14:43:54.777 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-18 14:43:54.784 [info] > git status -z -uall [11ms]
+2025-03-18 14:43:55.090 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-18 14:46:41.843 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-18 14:56:01.187 [info] > git config --get commit.template [1ms]
+2025-03-18 14:56:01.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 14:56:01.197 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-18 14:56:01.205 [info] > git status -z -uall [11ms]
+2025-03-18 14:56:01.679 [info] > git show --textconv :web.html [3ms]
+2025-03-18 14:56:01.680 [info] > git ls-files --stage -- web.html [1ms]
+2025-03-18 14:56:01.683 [info] > git cat-file -s fdec7d3a0c196e21343c9201b9f3e53a3271b459 [1ms]
+2025-03-18 14:56:06.043 [info] > git blame --root --incremental 2a1ae096c706e0969b2a26fc45e846209fb7c42a -- web.html [1ms]
+2025-03-18 14:56:06.226 [info] > git config --get commit.template [3ms]
+2025-03-18 14:56:06.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 14:56:06.233 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-18 14:56:06.238 [info] > git status -z -uall [9ms]
+2025-03-18 14:56:11.721 [info] > git config --get commit.template [2ms]
+2025-03-18 14:56:11.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 14:56:11.725 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-18 14:56:11.732 [info] > git status -z -uall [9ms]
+2025-03-18 14:56:16.749 [info] > git config --get commit.template [4ms]
+2025-03-18 14:56:16.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2025-03-18 14:56:16.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-03-18 14:56:16.760 [info] > git status -z -uall [9ms]
+2025-03-18 14:56:21.779 [info] > git config --get commit.template [2ms]
+2025-03-18 14:56:21.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-03-18 14:56:21.783 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-18 14:56:21.794 [info] > git status -z -uall [14ms]
